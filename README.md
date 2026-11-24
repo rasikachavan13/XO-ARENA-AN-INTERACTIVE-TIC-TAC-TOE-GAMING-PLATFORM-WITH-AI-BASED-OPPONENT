@@ -28,13 +28,12 @@ The images below are included from the project's mini-project report. They are p
 
 ### Application flowchart
 
-<img width="975" height="219" alt="image" src="https://github.com/user-attachments/assets/a97261c2-2dbc-4237-8fc5-909f34e06ae1" />
+<img width="975" height="870" alt="image" src="https://github.com/user-attachments/assets/ee41e384-4158-479e-a782-375aacc2cbdb" />
 
 
 ### Home page
 
-<img width="975" height="870" alt="image" src="https://github.com/user-attachments/assets/ee41e384-4158-479e-a782-375aacc2cbdb" />
-
+<img width="975" height="219" alt="image" src="https://github.com/user-attachments/assets/a97261c2-2dbc-4237-8fc5-909f34e06ae1" />
 
 ### Game mode selection
 
