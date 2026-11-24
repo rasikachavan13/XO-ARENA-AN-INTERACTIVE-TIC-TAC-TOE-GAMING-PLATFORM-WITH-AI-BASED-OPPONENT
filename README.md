@@ -35,6 +35,7 @@ The images below are included from the project's mini-project report. They are p
 
 <img width="975" height="219" alt="image" src="https://github.com/user-attachments/assets/a97261c2-2dbc-4237-8fc5-909f34e06ae1" />
 
+
 ### Game mode selection
 
 <img width="975" height="271" alt="image" src="https://github.com/user-attachments/assets/a347f7ac-3611-4866-80cf-ef1ae95f79ba" />
@@ -43,10 +44,6 @@ The images below are included from the project's mini-project report. They are p
 ### Difficulty selection
 
 <img width="975" height="536" alt="image" src="https://github.com/user-attachments/assets/99f75188-94d9-4ba1-a05f-2c18ea8961a9" />
-
-
-### Game board
-
 
 
 
