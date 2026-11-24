@@ -1,0 +1,242 @@
+# XO ARENA – An Interactive Tic-Tac-Toe Gaming Platform with AI-Based Opponent
+
+XO ARENA is an interactive, web-based Tic-Tac-Toe game developed using **React** and **JavaScript**. It combines the traditional 3 × 3 Tic-Tac-Toe game with an AI-based opponent, multiple game modes, and player-tracking features.
+
+The project demonstrates practical applications of **arrays, conditional logic, loops, recursion, game-state evaluation, and the Minimax algorithm**.
+
+## Features
+
+- **Player vs Bot:** Play against an AI-controlled opponent.
+- **Player vs Player:** Play locally with another person on the same device.
+- **Three AI difficulty levels:**
+  - **Easy:** Selects a random available cell.
+  - **Medium:** Prioritizes winning moves, blocks immediate opponent wins, and considers strategic positions.
+  - **Hard:** Uses the **Minimax algorithm** to evaluate possible future game states and choose an optimal move.
+- **Game outcome detection:** Detects wins and draws using the eight possible winning combinations.
+- **Leaderboard:** Displays player rankings based on recorded results.
+- **Player statistics:** Tracks games, wins, losses, draws, and winning streaks.
+- **Match history:** Keeps records of completed matches.
+- **Game controls:** Includes undo, restart, and rematch options.
+- **Theme customization:** Supports dark and light themes.
+- **Sound effects:** Provides audio feedback for game events.
+- **Rules section:** Explains how to play.
+- **Local persistence:** Uses browser Local Storage for game settings, leaderboard records, player statistics, and match history.
+
+## Screenshots and Flowchart
+
+The images below are included from the project's mini-project report. They are provided as separate files in the `assets/` directory.
+
+### Application flowchart
+
+![XO ARENA flowchart](assets/flowchart.png)
+
+### Home page
+
+![XO ARENA home page](assets/home-page.png)
+
+### Game mode selection
+
+![Game mode selection](assets/game-mode-selection.png)
+
+### Difficulty selection
+
+![Difficulty selection](assets/difficulty-selection.png)
+
+### Game board
+
+![XO ARENA game board](assets/game-board.png)
+
+### AI gameplay
+
+![XO ARENA AI gameplay](assets/ai-gameplay.png)
+
+### Winning condition
+
+![Winning condition](assets/winning-condition.png)
+
+### Leaderboard
+
+![XO ARENA leaderboard](assets/leaderboard.png)
+
+### Player statistics and match history
+
+![Player statistics and match history](assets/player-statistics-and-match-history.png)
+
+## Technology Stack
+
+| Technology | Purpose |
+|---|---|
+| JavaScript | Game logic, AI decision-making, and application functionality |
+| React.js | Interactive user interface and component-based development |
+| Vite | Development server and build tool |
+| HTML5 | Web application structure |
+| CSS3 | Layout, styling, animations, and themes |
+| Tailwind CSS | Utility-based styling configuration |
+| Lucide React | Interface icons |
+| Browser Local Storage | Persistent storage of settings and game records |
+| Node.js | Running the automated test suite |
+| Visual Studio Code | Development environment |
+
+## Data Structures and Algorithms
+
+### Game board representation
+
+The 3 × 3 board is represented using a one-dimensional array of nine elements. Each element corresponds to one cell:
+
+```js
+[null, null, null, null, null, null, null, null, null]
+```
+
+- `X` represents Player X.
+- `O` represents Player O.
+- `null` represents an empty cell.
+
+### Winning-condition detection
+
+The game checks eight predefined winning combinations:
+
+- Three horizontal lines
+- Three vertical lines
+- Two diagonal lines
+
+### Minimax algorithm
+
+The Hard AI uses Minimax, a recursive decision-making algorithm for two-player games. It explores possible future moves, evaluates terminal game states, and chooses the move with the best score assuming the opponent also plays optimally.
+
+The project's scoring approach is:
+
+- AI win: positive score
+- Opponent win: negative score
+- Draw: zero score
+
+The algorithm also considers game-tree depth to prefer faster wins and delay losses.
+
+## Project Structure
+
+The main files documented for the project are:
+
+```text
+XO-ARENA/
+├── src/
+│   ├── App.jsx
+│   ├── game.js
+│   ├── game.test.js
+│   ├── main.jsx
+│   └── styles.css
+├── assets/
+│   ├── flowchart.png
+│   ├── home-page.png
+│   ├── game-mode-selection.png
+│   ├── difficulty-selection.png
+│   ├── game-board.png
+│   ├── ai-gameplay.png
+│   ├── winning-condition.png
+│   ├── leaderboard.png
+│   └── player-statistics-and-match-history.png
+├── index.html
+├── package.json
+├── package-lock.json
+└── vite.config.js
+```
+
+> The exact location of source files may differ depending on the project's current folder structure. The `assets/` directory contains the report images included with this README.
+
+## Getting Started
+
+### Prerequisites
+
+Install **Node.js** and **npm** before running the project.
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/XO-ARENA.git
+   ```
+
+2. Move into the project directory:
+
+   ```bash
+   cd XO-ARENA
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL printed in the terminal (Vite commonly uses `http://localhost:5173`).
+
+### Build for production
+
+```bash
+npm run build
+```
+
+### Run tests
+
+The project report documents a Node.js built-in test suite in `game.test.js`. If the test script is configured in `package.json`, run:
+
+```bash
+npm test
+```
+
+If no `test` script is defined, check `package.json` for the exact test command before running it.
+
+## Testing
+
+The project report records successful results for these test scenarios:
+
+| Test case | Expected behaviour | Reported result |
+|---|---|---|
+| Winning condition | Detects Player X's winning line | Passed |
+| Draw condition | Detects a full board with no winner | Passed |
+| Easy bot | Selects an available cell | Passed |
+| Medium bot winning move | Completes an immediate winning combination | Passed |
+| Medium bot blocking move | Blocks the opponent's immediate win | Passed |
+| Hard bot winning move | Selects an immediate winning move | Passed |
+| Hard bot decision-making | Does not lose when responding to legal optimal play | Passed |
+
+## Future Enhancements
+
+Potential future improvements identified in the project report include:
+
+- Online multiplayer using real-time communication.
+- User authentication and personalized profiles.
+- Global leaderboard and online rankings.
+- Multiplayer tournaments and competitions.
+- Additional game modes and challenges.
+- Advanced AI strategies and difficulty levels.
+- Cloud-based storage for player statistics.
+- Android and iOS application support.
+- Daily challenges and achievement badges.
+- Improved accessibility and interface customization.
+
+## References
+
+- [React Documentation](https://react.dev/)
+- [JavaScript – MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Vite Documentation](https://vite.dev/)
+- [Node.js Documentation](https://nodejs.org/docs/)
+- [Minimax Algorithm](https://en.wikipedia.org/wiki/Minimax)
+- [Lucide React Documentation](https://lucide.dev/guide/packages/lucide-react)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+
+## Author
+
+**Developed as a Data Structure and Algorithm mini project**  
+School of Technology and Research  
+Dnyaan Prasad Global University  
+Academic Year: 2026–2027 (Sem-I)
+
+---
+
+If you find this project useful, feel free to star the repository.
