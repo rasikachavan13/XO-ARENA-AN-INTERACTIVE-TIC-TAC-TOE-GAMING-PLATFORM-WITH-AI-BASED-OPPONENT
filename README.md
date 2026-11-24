@@ -28,39 +28,48 @@ The images below are included from the project's mini-project report. They are p
 
 ### Application flowchart
 
-![XO ARENA flowchart](assets/flowchart.png)
+<img width="975" height="219" alt="image" src="https://github.com/user-attachments/assets/a97261c2-2dbc-4237-8fc5-909f34e06ae1" />
+
 
 ### Home page
 
-![XO ARENA home page](assets/home-page.png)
+<img width="975" height="870" alt="image" src="https://github.com/user-attachments/assets/ee41e384-4158-479e-a782-375aacc2cbdb" />
+
 
 ### Game mode selection
 
-![Game mode selection](assets/game-mode-selection.png)
+<img width="975" height="271" alt="image" src="https://github.com/user-attachments/assets/a347f7ac-3611-4866-80cf-ef1ae95f79ba" />
+
 
 ### Difficulty selection
 
-![Difficulty selection](assets/difficulty-selection.png)
+<img width="975" height="536" alt="image" src="https://github.com/user-attachments/assets/99f75188-94d9-4ba1-a05f-2c18ea8961a9" />
+
 
 ### Game board
 
-![XO ARENA game board](assets/game-board.png)
+
+
 
 ### AI gameplay
 
-![XO ARENA AI gameplay](assets/ai-gameplay.png)
+<img width="969" height="259" alt="image" src="https://github.com/user-attachments/assets/883fc815-d71f-4399-b94b-b71b44eb0d36" />
+
 
 ### Winning condition
 
-![Winning condition](assets/winning-condition.png)
+<img width="975" height="654" alt="image" src="https://github.com/user-attachments/assets/cada8de2-20b1-462e-b5b2-df50da2317b9" />
+
 
 ### Leaderboard
 
-![XO ARENA leaderboard](assets/leaderboard.png)
+<img width="975" height="593" alt="image" src="https://github.com/user-attachments/assets/b3af8edd-0e0e-40d9-8199-0a3413dc0d92" />
+
 
 ### Player statistics and match history
 
-![Player statistics and match history](assets/player-statistics-and-match-history.png)
+<img width="961" height="411" alt="image" src="https://github.com/user-attachments/assets/a747397a-4e85-4f53-9fca-ae1e3d44fad2" />
+
 
 ## Technology Stack
 
